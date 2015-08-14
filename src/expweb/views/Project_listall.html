@@ -1,0 +1,22 @@
+<{ include "header.html"}>
+		
+
+	<script>
+		function addpr(){
+				$.ajax({
+					type:"POST",
+					url:"index.php?m=Project&a=addpr",
+					data:$('#myAddPr').serialize(),
+					success:function(jsstr){
+						obj = JSON.parse(jsstr);
+						u.msg(obj.message,obj.type);
+						if(obj.type != 5) ctrModal(modalId,'hide');
+					}
+					
+				
+				});
+			}
+	</script>
+	
+	</body>
+</html>
