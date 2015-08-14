@@ -2,7 +2,7 @@
 
 In the project, a url.py can be used to collect the target.
 
-example:url.pyc "关键字"  "页数" "线程数" ^v^  
+example:url.pyc "keywords"  "pages" "threads" ^v^  
 
 
 
