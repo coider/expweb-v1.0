@@ -112,6 +112,7 @@ class Model{
             return mysql_fetch_assoc($result); 
 
         return null; 
+        }
     }
     
 
